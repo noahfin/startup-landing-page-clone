@@ -51,7 +51,40 @@ table {
 
 body {
     background-color: LightGray;
+    -webkit-font-smoothing: antialiased;
 }
 div {
-    border: 1px solid Chocolate;
+   
+}
+.site-content{
+background-color: #fff;
+position: fixed;
+width: 100%;
+border-bottom: 1px solid #DDD;
+z-index: 9999;
+display: block;
+height: 70px;}
+
+ul{
+float: right;
+color: #838994;
+font-size: 1.04rem;
+margin-bottom: 70px;
+padding: 1em;
+
+}
+li{
+
+padding: .5em;
+float: left;
+
+}
+
+
+.site-content{
+padding: 0 0.938rem;
+margin: 0 auto;
+min-width: 37.5rem;
+}
+}
 }
