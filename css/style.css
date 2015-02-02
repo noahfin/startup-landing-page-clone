@@ -64,11 +64,10 @@ ol, ul {
 
 .top-navigation > .content {
     padding: 0 3px;
-    
     height: 4.375rem;
     width: 60%;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     color: #838994;
 
 }
@@ -100,9 +99,9 @@ a:link {
     margin-left: 25px;
    color: #838994;
 }
-.top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 500;
+.top-navigation .links li.active {
+color: #4c5058;
+font-weight: 500;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
@@ -115,7 +114,7 @@ a:link {
     background-size: cover;
     background-position: 0 bottom;
     height: 40.938rem;
-    width: 104%;
+    width: 103.5%;
     overflow: auto;
 
    }
@@ -173,7 +172,7 @@ a:link {
     width: 33.3333333%;
     float:left;
 }
-.head{
+.head3{
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
@@ -186,4 +185,52 @@ a:link {
     font-size: 1.313rem;
 
 }
+
+/**
+ * FOOTER SECTION!
+ */
+
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social h3 {
+    font-size: 100%;
+    font-weight: 300;
+    color: #4c5058;
+}
+
+/
 
