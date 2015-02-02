@@ -54,13 +54,17 @@ ol, ul {
 }
 /* Navigation Section */
 .top-navigation {
+   
     background-color: #fff;
-    padding-left: 5px;
-    padding-right: 5px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
 }
 .top-navigation > .content {
     padding: 0 3px;
-    height: 70px;
+    height: 4.375rem;
     width: 60%;
 
 }
@@ -73,12 +77,13 @@ ol, ul {
 
 .top-navigation .links {
     float: right;
-    color: #D3D3D3;
-    font-size: 18px;
-    margin-top: 25px;
-    list-style: none;
-
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
 }
+
+
+
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
@@ -103,40 +108,47 @@ ol, ul {
 
    }
 
-.content > h1, h3{
-     
-      color: white;
-    font-weight: 300;
 
-}
-.content > h1 {
-    margin-top: 133px;
-    padding-top: 100px;
-    font-size: 50px;
-    padding-bottom: 15px;
-}
 
-.content > h3{
-    font-size: 25px;
-}
 
 .big-button{
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
-    margin-top: 16px;
-    background-color: #FF4500;
-    width: 9.688rem;
-background-color: #f15a29;
-border-color: #f15a29;
-text-shadow: none;
-border-style: none;
-border-radius: 4px;
-padding: 1rem 1.5rem;
-color: white;
-font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
 }
 
-
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float:left;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
